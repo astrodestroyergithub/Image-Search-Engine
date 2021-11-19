@@ -29,6 +29,7 @@ _**5. Argparse**_
 
 ## Algorithm
 The query image will be segmented into 5 parts as shown below. Each part will define various features of the image. Each of the parts will be extracted for features, after the image is converted to HSV format from RGB format. Although, RGB format images is easier to process than HSV images, the HSV images appeal more to human vision, when it comes to perceiving those images to the fullest. Hence, after the conversion, the parts will be extracted for the features, to form a color correlogram. The color correlogram will be made up on the basis of the probability of the pixel colors, and how many times a particular shade of color appears in each region, in the form of pixels.
+
 ![Query Image Segmented](https://github.com/astrodestroyergithub/Image-Search-Engine/blob/master/assets/temp.png)
 
 ## How to perform the execution?
